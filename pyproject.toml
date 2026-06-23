@@ -1,0 +1,10 @@
+[project]
+name = "solarpalm-ai"
+version = "0.1.0"
+description = "Rooftop solar potential and savings estimator for Fiji (SolarPalm AI calculation core)"
+requires-python = ">=3.9"
+dependencies = []
+license = { text = "MIT" }
+
+[project.scripts]
+solarpalm = "solarpalm.cli:main"
