@@ -3,3 +3,7 @@ __pycache__/
 .venv/
 *.egg-info/
 .pytest_cache/
+
+# Internal strategy and planning notes, not for the public repo
+round1_submission.md
+plan.md
