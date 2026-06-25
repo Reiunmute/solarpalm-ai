@@ -74,6 +74,22 @@ Payback:           7.37 years
 
 More commands and recorded output are in [`examples/`](examples/README.md).
 
+## Static website
+
+A polished static landing page lives in [`site/`](site/). It is pure HTML, CSS,
+and JavaScript, with no build step.
+
+Live site: https://reiunmute.github.io/solarpalm-ai/
+
+Local preview:
+
+```bash
+cd site
+python3 -m http.server 4173
+```
+
+Then open `http://127.0.0.1:4173/`.
+
 ```bash
 # JSON output, including the monthly breakdown
 python3 -m solarpalm.cli --lat -18.14 --lon 178.44 --kwp 3 --json
